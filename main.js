@@ -3,7 +3,7 @@ class Formula {
    #x;
 
     constructor(){
-        this.#surname = "Zerebkovs"
+        this.#surname = "Žerebkovs"
         this.#x=0;
         
     }
@@ -65,7 +65,7 @@ const state = {
 function calculateFunc (e) {
     e.preventDefault()
    let result;
-    const formula = new Formula("Žerebkovs")
+    const formula = new Formula()
     if(input.value === ""){
         alert("Please Enter a Number")
     }else {
