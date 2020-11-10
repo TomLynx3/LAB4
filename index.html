@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>LAB4</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+        
+        
+        <form id="form">
+            <div class="formulas_btn">
+                <button class="btn" id="formula_1">Formula 1</button>
+                <button class="btn" id="formula_2">Formula 2</button>
+            </div>
+            <span class="formula_1"><img src="https://latex.codecogs.com/gif.latex?\frac{\sqrt{3x}}{2x-1}"/></span>
+            <span class="formula_2"><img src="https://latex.codecogs.com/gif.latex?\frac{\sqrt{sin(x)&plus;1.5}}{cos(x)}"/></span>
+            <span id='output'></span>
+            <input type="number" placeholder="Input X" id="input">
+            <button class="btn" id="calculate">Calculate</button>
+            <button class="btn" id="refresh">Refresh</button>
+        </form>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
